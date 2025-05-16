@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_mahima
+    description: "Staging model for Mahima Shah"
+    columns:
+      - name: emp_id
+        tests:
+          - not_null
+          - unique
+
